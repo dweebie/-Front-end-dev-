@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My first form!</title>
+	<style>
+		h1{
+			color:blue;text-align: center
+		}
+		input[type=number]{
+			background-color: yellow;
+		}
+		input[type=text]{
+			background-color: red;
+		}
+	</style>
+	</head>
+
+	<body>
+		<h1>Fill out this</h1>
+		<form>
+		<div>
+			<input type="text" placeholder="Full name" name="name">
+			<input type="password" placeholder="Password" name="password">
+			<input name="city" placeholder="city" type="text">
+			<input name="pincode" placeholder="pincode" type="number">
+			<input name="age" placeholder="age" type="number">			
+
+		</div>
+		<div>
+			Pick one 
+			<input name="color" type="radio" value="red">Red
+			<input name="color" type="radio" value="blue">blue
+			<input name="color" type="radio" value="green">green
+		</div>		
+
+		<div>
+			<input name="country" list="countries" placeholder="Country">
+				<datalist id="countries">
+						
+					  <option value="JavaScript">JavaScript</option>
+				      <option value="Haskell">Haskell</option>
+				      <option value="Ruby">Ruby</option>
+				      <option value="Go">Go</option>
+				      <option value="Python">Python</option>
+				      <option value="etc">etc</option>
+
+						
+				</datalist> 
+
+		</div>
+
+
+
+
+
+			<button>Submit!</button>
+		</form>	
+		<!--h1 style="color:blue;text-align: center">Sound and colour </h1> -->
+		
+
+	</body>
